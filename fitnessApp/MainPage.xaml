@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fitnessApp.MainPage">
+
+
+    <StackLayout>
+        <Label Text="Fitness App" FontSize="Title" HorizontalTextAlignment="Center">
+			
+        </Label>
+        
+        <Label Text="Todays Distance:" FontSize="Subtitle" Padding="10,0,0,0"/>
+        <Label Text="{Binding Today_dis}" FontSize="Title" VerticalOptions="Fill" Padding="20,0,0,0"/>
+        <Label Text="Calories burned:" FontSize="Subtitle" Padding="10,0,0,0"/>
+        <Label Text="{Binding Cal}" FontSize="Title" VerticalOptions="Fill" Padding="20,0,0,0"/>
+        <Label Text="Total distance" FontSize="Subtitle" Padding="10,0,0,0"/>
+        <Label Text="{Binding Total_dis}" FontSize="Title" VerticalOptions="FillAndExpand" Padding="20,0,0,0"/>
+        
+        <StackLayout Orientation="Horizontal" VerticalOptions="End">
+            <Button  HorizontalOptions="FillAndExpand" Text="Home" BackgroundColor="#DFDEDE"  TextColor="#E32424" />
+            <Button HorizontalOptions="FillAndExpand" Text="Exercise" BackgroundColor="#DFDEDE" TextColor="#E32424" Clicked="onButtonExerciseClicked"/>
+            <Button HorizontalOptions="FillAndExpand" Text="Profile" BackgroundColor="#DFDEDE" TextColor="#E32424"  Clicked="onButtonProfileClicked"/>
+        </StackLayout>
+        
+
+    </StackLayout>
+
+</ContentPage>
