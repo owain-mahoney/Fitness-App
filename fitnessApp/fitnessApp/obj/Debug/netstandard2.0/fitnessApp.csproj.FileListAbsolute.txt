@@ -1,0 +1,17 @@
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\bin\Debug\netstandard2.0\fitnessApp.deps.json
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\bin\Debug\netstandard2.0\fitnessApp.dll
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\bin\Debug\netstandard2.0\ref\fitnessApp.dll
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\bin\Debug\netstandard2.0\fitnessApp.pdb
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.csprojAssemblyReference.cache
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.AssemblyInfoInputs.cache
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.AssemblyInfo.cs
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.csproj.CoreCompileInputs.cache
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.dll
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\ref\fitnessApp.dll
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\fitnessApp.pdb
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\Exercise.xaml.g.cs
+C:\Users\owain\OneDrive\Documents\disserstation\fitnessApp\fitnessApp\obj\Debug\netstandard2.0\ProgressPage.xaml.g.cs

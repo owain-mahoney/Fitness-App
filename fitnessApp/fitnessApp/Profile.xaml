@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fitnessApp.Profile">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Profile Infomation" FontSize="Title" HorizontalTextAlignment="Center"/>
+            <Label Text="First Name"/>
+            <Entry VerticalOptions="Fill" Text="{Binding First_name}" Placeholder="enter first name:" />
+            <Label Text="Second Name"/>
+            <Entry VerticalOptions="Fill" Text="{Binding Second_name}" Placeholder="enter second name:"/>
+            <Label Text="Age"/>
+            <Entry VerticalOptions="Fill" Text="{Binding Age}"  Placeholder="enter age:" Keyboard="Numeric"/>
+            <Label Text="Weight in KG"/>
+            <Entry VerticalOptions="Fill" Text="{Binding Weight}"  Placeholder="enter weight:" Keyboard="Numeric"/>
+            <Label Text="Height in M"/>
+            <Entry VerticalOptions="Fill" Text="{Binding Height}"  Placeholder="enter height:" Keyboard="Numeric"/>
+            <Button Text="Save" Command="{Binding SaveCommand}"/>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button  HorizontalOptions="FillAndExpand" Text="Home"  BackgroundColor="#DFDEDE"  TextColor="#E32424" Clicked="onButtonHomeClicked"/>
+                <Button HorizontalOptions="FillAndExpand" Text="Exercise" BackgroundColor="#DFDEDE" TextColor="#E32424" Clicked="onButtonExerciseClicked"/>
+                <Button HorizontalOptions="FillAndExpand" Text="Profile" TextColor="#E32424" BackgroundColor="#DFDEDE"/>
+             </StackLayout>
+           
+           
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

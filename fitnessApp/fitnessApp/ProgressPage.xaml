@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fitnessApp.ProgressPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Timer}" HorizontalOptions="CenterAndExpand" FontSize="40">
+                
+            </Label>
+            <Button Text="Start" IsVisible="{Binding StartVisable}" Command="{Binding StartExcersie}"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Pause" IsVisible="{Binding PauseVisable}" Command="{Binding PauseExcersie} "/>
+                <Button Text="Stop/End" IsVisible="{Binding EndVisable}" Command="{Binding EndExercise}"/>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Vertical" >
+                <Label Text="{Binding CurrentDistance}" FontSize="Title"/>
+                <Label Text="{Binding CurrentSpeed}" FontSize = "Title"/>
+               <Label Text="{Binding Cal}" FontSize="Title"/>
+            </StackLayout> 
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
